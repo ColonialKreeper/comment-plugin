@@ -3,13 +3,14 @@
   "displayName": "Comment Inserter",
   "description": "Inserts header comments to every java file.",
   "version": "0.0.2",
+  "repository": "https://github.com/ColonialKreeper/comment-plugin",
   "engines": {
     "vscode": "^1.93.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": ["*"], 
+  "activationEvents": ["onStartupFinished"], 
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
